@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playable Pianno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Piano-body">
+        <div id="header">
+            <div>
+                Playable Pianno
+            </div>
+            <div  class="input">
+                Volume <input class="select slider" type="range" min="0" max="1" value="0.5" step="any">
+            </div>
+            <div class="input">
+                Key Show <input class="select" id="key" type="checkbox">
+            </div>
+        </div>
+        <div >
+            <ul class="piano-buttons">
+                <li  class="key white" data-key="a">A</li>
+                <li  class=" key black"  data-key="W">W</li>
+                <li class="key white" data-key="S">S</li>
+                <li  class="key black" data-key="E">E</li>
+                <li  class="key white" data-key="D">D</li>
+                <li  class="key white" data-key="F">F</li>
+                <li  class="key black" data-key="T">T</li>
+                <li  class="key white" data-key="G">G</li>
+                <li  class="key black" data-key="Y">Y</li>
+                <li  class="key white" data-key="H">H</li>
+                <li  class="key black" data-key="U">U</li>
+                <li  class="key white" data-key="J">J</li>
+                <li  class="key white" data-key="K">K</li>
+                <li  class="key black" data-key="O">O</li>
+                <li class="key white" data-key="L">L</li>
+                <li  class="key black" data-key="P">P</li>
+                <li  class="key white" data-key=";">;</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

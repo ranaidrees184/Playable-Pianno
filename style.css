@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+padding:0px;
+}
+body{
+    background-color: rgb(141, 252, 252);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+#Piano-body{
+    border-radius: 10px;
+    width:600px;
+    height:250px;
+    border:2px solid black;
+    background-color: rgb(22, 19, 19);
+}
+.input{
+    display:flex;
+    align-content:center;
+}
+#header{
+    margin:10px;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    color:antiquewhite;
+}
+.select{
+    margin-left:10px;
+}
+#key{
+    border-radius:25px;
+    border:1 px solid white;
+    background-color: white;
+     height:20px;
+    /* width:70px; */ 
+    /* appearance: none; */
+}
+li{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+    list-style: none;
+}
+.piano-buttons{
+    margin:30px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.black{
+    background-color:black;
+    height:90px;
+    width:40px;
+    border:1px solid black;
+    margin-right:-20px;
+    margin-left:-20px;
+    color:white;
+    text-align: center;
+    border-radius:05px;
+    z-index: 02;
+}
+.white{
+    text-align:bottom;
+    width:55px;
+    border:1px solid black;
+    border-radius:5px;
+    background-color:rgb(218, 200, 200);
+    height:150px;
+    z-index:01;
+    /* margin-right:03px; */
+    /* margin:1px; */
+}
